@@ -4,9 +4,10 @@
       "email": "admin@gmail.com",
       "password": "$2a$10$o0jLpH4FKyj8xCyGwOwmleRI5uRQ0clWPNyihUdoaxE1kFP93rp6u",
       "avatars": [
-        4, 5
+        4,
+        5
       ],
-      "avatarId": 1,
+      "avatarId": 4,
       "nickName": "圈圈",
       "totalCheckIn": 0,
       "isAdmin": true,
@@ -181,6 +182,17 @@
       ],
       "cover": "https://images.unsplash.com/photo-1654277041218-84424c78f0ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdpdGh1YnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "url": "https://courses.hexschool.com/p/git-github"
+    },
+    {
+      "id": 9,
+      "title": "UI 設計入門",
+      "platform": "六角學院",
+      "tags": [
+        "設計入門",
+        "UIUX"
+      ],
+      "cover": "https://plus.unsplash.com/premium_photo-1661762872683-f1fa59539839?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHx3ZWIlMjBzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "url": "https://www.hexschool.com/courses/ui.html"
     }
   ],
   "passes": [
@@ -188,7 +200,7 @@
       "id": 1,
       "userId": 1,
       "courseId": 1,
-      "isFinish": false
+      "isFinish": true
     },
     {
       "userId": 1,
@@ -198,9 +210,51 @@
     },
     {
       "userId": 1,
-      "courseId": 3,
+      "courseId": 8,
       "isFinish": false,
       "id": 3
+    },
+    {
+      "userId": 1,
+      "courseId": 1,
+      "isFinish": false,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "courseId": 6,
+      "isFinish": false
+    },
+    {
+      "userId": 1,
+      "courseId": 1,
+      "isFinish": false,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "courseId": 1,
+      "isFinish": false,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "courseId": 2,
+      "isFinish": false,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "courseId": 9,
+      "isFinish": false,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "courseId": 1,
+      "isFinish": false,
+      "id": 10
     }
   ],
   "comments": [
@@ -214,11 +268,27 @@
       "score": 5,
       "content": "<p>非常推薦這門課, 深入淺出我覺得剛剛好, 建議想學習 JS 的小夥伴可以試看看</p>",
       "theme": 1,
-      "isPassed": -1,
+      "isPassed": 1,
       "failContent": "",
       "likes": [],
       "likesNum": 0,
       "timer": 1693643063871
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "courseId": 1,
+      "canEdit": false,
+      "image": "https://images.unsplash.com/file-1635990755334-4bfd90f37242image?dpr=2&auto=format&fit=crop&w=416&q=60",
+      "showName": 1,
+      "score": 5,
+      "content": "<p>213123</p>",
+      "theme": 1,
+      "isPassed": 1,
+      "failContent": "",
+      "likes": [1,4],
+      "likesNum": 2,
+      "timer": 16936433231
     }
   ],
   "chatRooms": [
@@ -258,6 +328,70 @@
     {
       "id": 1,
       "keyWord": "CSS"
+    },
+    {
+      "id": 2,
+      "keyWord": "手工藝"
+    },
+    {
+      "id": 3,
+      "keyWord": "程式"
+    },
+    {
+      "id": 4,
+      "keyWord": "日文"
+    },
+    {
+      "id": 5,
+      "keyWord": "比特幣"
+    },
+    {
+      "id": 6,
+      "keyWord": "UI / UX"
+    },
+    {
+      "id": 7,
+      "keyWord": "AI 智能"
+    },
+    {
+      "id": 8,
+      "keyWord": "工業設計"
+    },
+    {
+      "id": 9,
+      "keyWord": "市場行銷"
+    },
+    {
+      "id": 10,
+      "keyWord": "英語會話"
+    },
+    {
+      "id": 11,
+      "keyWord": "寵物溝通"
+    },
+    {
+      "id": 12,
+      "keyWord": "資訊安全"
+    },
+    {
+      "id": 13,
+      "keyWord": "刺繡"
+    },
+    {
+      "id": 14,
+      "keyWord": "商業攝影"
+    },
+    {
+      "id": 15,
+      "keyWord": "投資理財"
+    },
+    {
+      "id": 16,
+      "keyWord": "影音剪辑"
+    },
+    {
+      "id": 17,
+      "keyWord": "表演藝術"
     }
   ]
 }
